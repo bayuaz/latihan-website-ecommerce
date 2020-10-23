@@ -43,13 +43,15 @@ a {
 	border: 2px solid white;
 }
 
-.iklan {
+/*.iklan {
 	float: left;
 	margin: 30px;
-}
+}*/
 
 .iklan img {
-	width: 120%;
+	margin: 30px;
+	float: left;
+	width: 71%;
 	height: 240px;
 	border: 1px solid white;
 }
