@@ -1,0 +1,124 @@
+* {
+  	box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  	margin: 0;
+  	padding: 0;
+}
+
+body {
+  	font-family: "Lucida Grande";
+  	background-image: url('WhatsApp Image 2020-10-22 at 16.44.34.jpeg');
+}
+
+a {
+  	text-decoration: none;
+}
+
+.container {
+	max-width: 1170px;
+  	padding: 0 15px;
+  	margin: 0 auto;
+}
+
+.atas {
+	position: relative;
+}
+
+.logo {
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.logo img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+.iklan {
+	float: left;
+	margin: 30px;
+}
+
+.iklan img {
+	width: 120%;
+	height: 240px;
+	border: 1px solid white;
+}
+
+.tengah {
+	position: relative;
+}
+
+.item {
+	text-align: center;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border: 5px solid white;
+}
+
+.kotak-satu {
+	font-size: 20px;
+	padding: 10px;
+	background: orange;
+	border-bottom: 5px solid white;
+}
+
+.kotak-dua {
+	line-height: 19px;
+	font-size: 18px;
+	padding: 10px;
+	background: grey;
+}
+
+.itemdua {
+	width: 71%;
+	color: white;
+	float: left;
+	border: 5px solid white;
+	background: black;
+}
+
+.menu {
+	border-bottom: 5px solid white;
+}
+
+.menu a {
+	font-weight: bold;
+	height: 45px;
+	line-height: 45px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+}
+
+.kanan {
+	display: inline-block;
+	margin-left: 230px;
+	border-radius: 2px;
+	border: 0px solid #008080;
+	background: #f0f8ff;
+	height: 35px;
+	line-height: 35px;
+}
+
+.garis {
+	border: 3px solid grey;
+}
+
+.iklan1 img {
+	display: block;
+	width: 100%;
+	height: 210px;
+}
