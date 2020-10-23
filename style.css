@@ -57,6 +57,7 @@ a {
 }
 
 .tengah {
+	font-family: 'Bebas Neue', cursive;
 	position: relative;
 }
 
@@ -70,15 +71,15 @@ a {
 }
 
 .kotak-satu {
-	font-size: 20px;
+	font-size: 37px;
 	padding: 10px;
 	background: orange;
 	border-bottom: 5px solid white;
 }
 
 .kotak-dua {
-	line-height: 19px;
-	font-size: 18px;
+	line-height: 30px;
+	font-size: 30px;
 	padding: 10px;
 	background: grey;
 }
@@ -96,18 +97,22 @@ a {
 }
 
 .menu a {
-	font-weight: bold;
-	height: 45px;
-	line-height: 45px;
+	margin: 0 7px;
+/*	font-weight: bold;*/
+	height: 67px;
+	line-height: 67px;
 	display: inline-block;
 	text-decoration: none;
 	color: white;
 	padding-left: 20px;
+	font-size: 37px;
+	letter-spacing: 1px;
 }
 
 .kanan {
+	padding-top: 16px;
 	display: inline-block;
-	margin-left: 230px;
+	margin-left: 100px;
 	border-radius: 2px;
 	border: 0px solid #008080;
 	background: #f0f8ff;
